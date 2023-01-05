@@ -1,0 +1,38 @@
+2023-01-05 20:53:09,368 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-01-05 21:19:10,905 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-01-05 21:29:55,719 [Worker-9: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:MyFirstSpring:0.0.1-SNAPSHOT @ /Users/iqrazamir/Documents/workspace-spring-tool-suite-4-4.16.0.RELEASE/MyFirstSpring/pom.xml.
+2023-01-05 21:29:55,978 [Worker-9: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /MyFirstSpring/src/main/java
+2023-01-05 21:29:55,978 [Worker-9: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /MyFirstSpring/src/main/resources
+2023-01-05 21:29:55,979 [Worker-9: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /MyFirstSpring/src/main/resources
+2023-01-05 21:29:55,979 [Worker-9: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /MyFirstSpring/src/test/java
+2023-01-05 21:29:58,681 [Worker-9: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 3 sec
+2023-01-05 21:29:58,682 [Worker-9: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2023-01-05 21:29:58,773 [Worker-9: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:MyFirstSpring:0.0.1-SNAPSHOT @ /Users/iqrazamir/Documents/workspace-spring-tool-suite-4-4.16.0.RELEASE/MyFirstSpring/pom.xml.
+2023-01-05 21:29:58,846 [Worker-9: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /MyFirstSpring/src/main/java
+2023-01-05 21:29:58,846 [Worker-9: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /MyFirstSpring/src/main/resources
+2023-01-05 21:29:58,846 [Worker-9: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /MyFirstSpring/src/main/resources
+2023-01-05 21:29:58,847 [Worker-9: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /MyFirstSpring/src/test/java
+2023-01-05 21:29:58,977 [Worker-9: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2023-01-05 21:29:59,236 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-01-05 21:29:59,243 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-01-05 21:29:59,245 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/iqrazamir/Documents/workspace-spring-tool-suite-4-4.16.0.RELEASE/MyFirstSpring/src/test/resources
+2023-01-05 21:30:53,059 [Worker-0: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.example:MyFirstWebSpring:0.0.1-SNAPSHOT @ /Users/iqrazamir/Documents/workspace-spring-tool-suite-4-4.16.0.RELEASE/MyFirstWebSpring/pom.xml.
+2023-01-05 21:30:53,262 [Worker-0: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /MyFirstWebSpring/src/main/java
+2023-01-05 21:30:53,262 [Worker-0: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /MyFirstWebSpring/src/main/resources
+2023-01-05 21:30:53,263 [Worker-0: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /MyFirstWebSpring/src/main/resources
+2023-01-05 21:30:53,263 [Worker-0: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /MyFirstWebSpring/src/test/java
+2023-01-05 21:30:53,593 [Worker-0: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 0 sec
+2023-01-05 21:30:53,594 [Worker-0: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2023-01-05 21:30:53,641 [Worker-0: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.example:MyFirstWebSpring:0.0.1-SNAPSHOT @ /Users/iqrazamir/Documents/workspace-spring-tool-suite-4-4.16.0.RELEASE/MyFirstWebSpring/pom.xml.
+2023-01-05 21:30:53,784 [Worker-0: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /MyFirstWebSpring/src/main/java
+2023-01-05 21:30:53,784 [Worker-0: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /MyFirstWebSpring/src/main/resources
+2023-01-05 21:30:53,784 [Worker-0: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /MyFirstWebSpring/src/main/resources
+2023-01-05 21:30:53,784 [Worker-0: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /MyFirstWebSpring/src/test/java
+2023-01-05 21:30:53,882 [Worker-0: Import Getting Started Content] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for MyFirstWebSpring
+2023-01-05 21:30:53,883 [Worker-0: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2023-01-05 21:30:54,049 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-01-05 21:30:54,050 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-01-05 21:30:54,051 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/iqrazamir/Documents/workspace-spring-tool-suite-4-4.16.0.RELEASE/MyFirstWebSpring/src/test/resources
+2023-01-05 21:30:54,051 [Worker-12: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of MyFirstWebSpring
+2023-01-05 21:30:54,051 [Worker-12: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for MyFirstWebSpring
+2023-01-05 21:31:51,509 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
