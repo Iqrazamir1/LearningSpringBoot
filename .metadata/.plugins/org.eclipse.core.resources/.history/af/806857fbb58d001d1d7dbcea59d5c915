@@ -1,0 +1,21 @@
+package com.example.beanExample;
+
+import javax.validation.constraints.Max;
+import javax.validation.constraints.Min;
+import javax.validation.constraints.NotNull;
+
+public class Order {
+	@Min(5)
+	public int id;
+	
+	@NotNull
+	public String name;
+	
+	@Max(6)
+	public int orderDate;
+	
+	@Min(5)
+	@NotNull
+	public int totalPrice;
+
+}

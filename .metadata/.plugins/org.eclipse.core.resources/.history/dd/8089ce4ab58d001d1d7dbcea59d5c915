@@ -1,0 +1,13 @@
+package com.example.beanExample;
+
+import javax.validation.constraints.Min;
+
+public class Book {
+	@Min(3)
+	public int id;
+	public String title;
+	public int price;
+	public String author;
+	public int quantity;
+
+}

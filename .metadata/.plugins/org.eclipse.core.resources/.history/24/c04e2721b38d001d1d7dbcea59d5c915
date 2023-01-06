@@ -1,0 +1,30 @@
+package com.example;
+
+import java.time.LocalTime;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.Scope;
+
+@Configuration
+public class AppConfiguration {
+	
+	@Bean
+	@Scope("prototype")
+	public String greeting() {
+		return "Hello, world";
+	}
+	
+	@Bean
+	@Scope("prototype")
+	public LocalTime time() {
+		return LocalTime.now();
+	}
+	
+	@Bean
+	@Scope("prototype")
+	public Person person() {
+		return new Person("Iqra", 21);
+	}
+	
+}

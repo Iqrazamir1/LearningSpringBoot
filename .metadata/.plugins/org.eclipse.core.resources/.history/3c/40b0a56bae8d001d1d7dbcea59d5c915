@@ -1,0 +1,44 @@
+package com.example;
+
+import java.time.LocalTime;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.Bean;
+
+//@SpringBootApplication
+public class MyFirstSpringApplication {
+
+	public static void main(String[] args) {
+		//SpringApplication.run(MyFirstSpringApplication.class, args);
+		ApplicationContext context = SpringApplication.run(MyFirstSpringApplication.class, args);
+		
+		Object byName = context.getBean("greeting");
+		String byType = context.getBean(String.class);
+		String byBoth = context.getBean("greeting", String.class);
+	
+		System.out.println(byName);
+		System.out.println(byType);
+		System.out.println(byBoth);
+		
+		Object name = context.getBean("time");
+		LocalTime type = context.getBean(LocalTime.class);
+		LocalTime both = context.getBean("time", LocalTime.class);
+		
+		System.out.println(name);
+		System.out.println(type);
+		System.out.println(both);
+	}
+	
+//	@Bean
+//	public String greeting() {
+//		return "Hello, world";
+//	}
+//	
+//	@Bean
+//	public LocalTime time() {
+//		return LocalTime.now();
+//	}
+//	
+}

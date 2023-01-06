@@ -1,0 +1,51 @@
+package com.example;
+
+import java.time.LocalTime;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.Bean;
+
+import com.example.beanExample.Person;
+
+//@SpringBootApplication
+public class MyFirstSpringApplication {
+
+	public static void main(String[] args) {
+		ApplicationContext context = SpringApplication.run(AppConfiguration.class, args);
+		
+		Object byName = context.getBean("greeting");
+		String byType = context.getBean(String.class);
+		String byBoth = context.getBean("greeting", String.class);
+	
+		System.out.println(byName);
+		System.out.println(byType);
+		System.out.println(byBoth);
+		
+		Object byName1 = context.getBean("time");
+		LocalTime byType1 = context.getBean(LocalTime.class);
+		LocalTime byBoth1 = context.getBean("time", LocalTime.class);
+		
+		System.out.println(byName1);
+		System.out.println(byType1);
+		System.out.println(byBoth1);
+		
+		Object byName2 = context.getBean("person");
+		Person byType2 = context.getBean(Person.class);
+		Person byBoth2 = context.getBean("person", Person.class);
+		
+		System.out.println(byName2);
+		System.out.println(byType2);
+		System.out.println(byBoth2);
+		
+		Object byName3 = context.getBean("book");
+		Book byType3 = context.getBean(Book.class);
+		Book byBoth3 = context.getBean("book", Book.class);
+		
+		System.out.println(byName3);
+		System.out.println(byType3);
+		System.out.println(byBoth3);
+	}
+	
+}
