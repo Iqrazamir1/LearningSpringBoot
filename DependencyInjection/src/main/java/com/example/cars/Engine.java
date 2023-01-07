@@ -1,5 +1,8 @@
 package com.example.cars;
 
-public class Engine {
+import org.springframework.stereotype.Component;
 
+@Component
+public interface Engine {
+	public String spec();
 }
